@@ -19,6 +19,6 @@ resource "aws_instance" "flux_lab" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "flux-tofu-lab"
+    Name = "flux-tofu-lab2"
   }
 }
