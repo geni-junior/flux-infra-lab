@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - ./flux-system
   - ./tofu-controller.yaml
+  - ./ec2.yaml
