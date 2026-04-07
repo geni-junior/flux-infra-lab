@@ -10,3 +10,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
+  varsFrom:
+    - kind: Secret
+      name: aws-creds
